@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="343.0" prefWidth="434.0" style="-fx-background-color: #191923;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddStudentController">
+   <children>
+      <Label layoutX="44.0" layoutY="23.0" prefHeight="44.0" prefWidth="150.0" text="Student ID" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="222.0" prefHeight="44.0" prefWidth="150.0" text="Phone Number" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="124.0" prefHeight="44.0" prefWidth="150.0" text="Department" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="74.0" prefHeight="44.0" prefWidth="150.0" text="Student  Name" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="174.0" prefHeight="44.0" prefWidth="150.0" text="Year" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="t1" layoutX="239.0" layoutY="32.0" />
+      <TextField fx:id="t2" layoutX="239.0" layoutY="83.0" />
+      <TextField fx:id="t3" layoutX="239.0" layoutY="133.0" />
+      <TextField fx:id="t4" layoutX="239.0" layoutY="183.0" />
+      <TextField fx:id="t5" layoutX="239.0" layoutY="231.0" />
+      <Label layoutX="211.0" layoutY="29.0" text=":" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="add" layoutX="314.0" layoutY="280.0" mnemonicParsing="false" onAction="#add" prefHeight="26.0" prefWidth="75.0" style="-fx-background-color: #FBCFFC;" text="Add" />
+      <Button fx:id="cancel" layoutX="239.0" layoutY="280.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #FBCFFC;" text="Cancel" />
+      <Label layoutX="212.0" layoutY="80.0" text=":" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="130.0" text=":" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="181.0" text=":" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="211.0" layoutY="229.0" prefHeight="30.0" prefWidth="5.0" text=":" textFill="#be79df">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

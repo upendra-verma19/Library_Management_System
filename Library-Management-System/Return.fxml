@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="315.0" prefWidth="320.0" style="-fx-background-color: #191923;"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ReturnController">
+    <ComboBox fx:id="sid" layoutX="63.0" layoutY="44.0" prefHeight="33.0" prefWidth="194.0" promptText="Student ID"
+              style="-fx-background-color: #FBCFFC;"/>
+    <Button layoutX="165.0" layoutY="190.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="91.0"
+            style="-fx-background-color: #FBCFFC;" text="Save"/>
+    <ComboBox fx:id="bid" disable="true" layoutX="63.0" layoutY="119.0" prefHeight="34.0" prefWidth="194.0"
+              promptText="Book ID" style="-fx-background-color: #FBCFFC;"/>
+    <Button layoutX="114.0" layoutY="275.0" mnemonicParsing="false" onAction="#full" prefHeight="25.0" prefWidth="91.0"
+            style="-fx-background-color: #FBCFFC;" text="Show All"/>
+</AnchorPane>

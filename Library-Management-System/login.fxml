@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+    <ImageView fitHeight="314.0" fitWidth="482.0" layoutX="-16.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@IMG/splash.jpg" />
+    </ImageView>
+    <Pane layoutX="308.0" prefHeight="302.0" prefWidth="410.0" snapToPixel="false" style="-fx-background-color: #191923;">
+        <Label layoutX="57.0" layoutY="76.0" prefHeight="26.0" prefWidth="105.0" text="USER ID" textFill="#fdb01e">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="57.0" layoutY="125.0" prefHeight="32.0" prefWidth="105.0" text="PASSWORD" textFill="#fdb01e">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="t1" layoutX="204.0" layoutY="78.0" />
+        <PasswordField fx:id="t2" layoutX="204.0" layoutY="129.0" />
+        <Button layoutX="204.0" layoutY="178.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: 008e97;" text="Log In" textFill="#191923">
+            <font>
+                <Font size="15.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button layoutX="57.0" layoutY="258.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="88.0" style="-fx-background-color: 008e97;" text="Register" textFill="#191923">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="205.0" layoutY="258.0" mnemonicParsing="false" onAction="#close" text="Close">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="180.0" layoutY="75.0" text=":" textFill="#fdb01e">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="178.0" layoutY="127.0" text=":" textFill="#fdb01e">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </Pane>
+</AnchorPane>

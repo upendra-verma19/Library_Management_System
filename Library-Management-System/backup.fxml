@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="451.0" prefWidth="986.0" style="-fx-background-color: #191923;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+        <Label layoutX="171.0" layoutY="37.0" text="LIBRARY MANAGEMENT SYSTEM" textAlignment="JUSTIFY" textFill="#fbcffc">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+        <GridPane layoutX="46.0" layoutY="102.0" prefHeight="296.0" prefWidth="894.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <AnchorPane maxHeight="150.0" maxWidth="300.0" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="100.0">
+                    <children>
+                        <Button layoutX="93.0" layoutY="45.0" mnemonicParsing="false" onAction="#addB" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: #FBCFFC;" text="Add Book">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                        <ImageView fitHeight="78.0" fitWidth="62.0" layoutX="14.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@IMG/add_book.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxHeight="150.0" maxWidth="300.0" GridPane.columnIndex="2">
+                    <children>
+                        <ImageView fitHeight="78.0" fitWidth="62.0" layoutX="21.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@IMG/student_info.png" />
+                            </image>
+                        </ImageView>
+                        <Button layoutX="93.0" layoutY="44.0" mnemonicParsing="false" onAction="#studentInfo" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: #FBCFFC;" text="Student Info">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxHeight="150.0" maxWidth="300.0" GridPane.rowIndex="1">
+                    <children>
+                        <Button layoutX="93.0" layoutY="45.0" mnemonicParsing="false" onAction="#bookInfo" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: #FBCFFC;" text="Book Inventory">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                        <ImageView fitHeight="78.0" fitWidth="62.0" layoutX="14.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@IMG/book_inventory.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxHeight="150.0" maxWidth="300.0" GridPane.columnIndex="1">
+                    <children>
+                        <Button layoutX="93.0" layoutY="45.0" mnemonicParsing="false" onAction="#b_return" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: #FBCFFC;" text="Return Book">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                        <ImageView fitHeight="78.0" fitWidth="62.0" layoutX="14.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@IMG/return_book.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxHeight="150.0" maxWidth="300.0" prefHeight="110.0" prefWidth="298.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <children>
+                        <Button layoutX="93.0" layoutY="45.0" mnemonicParsing="false" onAction="#intake" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: #FBCFFC;" text="Book Issue">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                        <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="22.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@IMG/issue_book.png" />
+                     </image></ImageView>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxHeight="150.0" maxWidth="300.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <children>
+                        <Button layoutX="93.0" layoutY="45.0" mnemonicParsing="false" onAction="#addS" prefHeight="60.0" prefWidth="190.0" style="-fx-background-color: #FBCFFC;" text="Add Member">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Button>
+                        <ImageView fitHeight="60.0" fitWidth="62.0" layoutX="14.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@IMG/add_member.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </AnchorPane>
+            </children>
+        </GridPane>
+        <ImageView fitHeight="26.0" fitWidth="23.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@IMG/profile.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="user" layoutX="50.0" layoutY="15.0" prefHeight="21.0" prefWidth="90.0" textFill="#fdb01e">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
